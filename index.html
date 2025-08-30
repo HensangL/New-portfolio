@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hensang Lama | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
@@ -16,104 +18,103 @@
         <li><a href="#about">About</a></li>
         <li><a href="#resume">Resume</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#footer">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
-   <div class="about-me">
-  <div class="about-text">
-    <h2>I Create Digital Future.</h2>
-    <p>
-      Nulla posuere tortor sed semper scelerisque. Etiam ornare iros metusnan the
-      gravida sodales vel. Integer ac malesuada nisi. Cras varius natoque penatis
-      magnis dis duirient montes, nascetur ridiculus mus.
-    </p>
-    <a href="mailto:hensang@example.com" class="btn">Contact Me</a>
-  </div>
+  <section id="about" class="hero">
+    <div class="about-me">
+      <div class="about-text">
+        <h2>I Create Digital Future.</h2>
+        <p>
+          I’m a passionate web developer who loves building modern, responsive, and user-friendly applications. With a strong foundation in frontend tools like React and Tailwind, as well as backend experience in Node.js and .NET, I strive to create seamless digital experiences. My focus is on writing clean, efficient code and turning ideas into products that solve real problems.
+        </p>
+        <a href="#footer" class="btn">Contact Me</a>
+      </div>
 
-  <div class="about-image">
-    <img src="passport.jpg" alt="Hensang Lama">
-  </div>
-</div>
+      <div class="about-image">
+        <img src="passport.jpg" alt="Hensang Lama">
+      </div>
+    </div>
   </section>
 
   <!-- Resume Section -->
   <section id="resume" class="resume">
-    <!-- Resume Section -->
-<section id="resume" class="resume">
-  <h2 class="section-title animate-slideUp">My Resume</h2>
+  <h2 class="section-title">My Resume</h2>
 
   <!-- Professional Summary -->
-  <div class="summary">
+  <div class="summary card">
     <h3>Professional Summary</h3>
     <p>
       Passionate Web Developer with 3+ years of experience in building responsive and interactive web applications. Skilled in front-end technologies like HTML, CSS, JavaScript, and React, with a strong eye for UI/UX design. Adept at collaborating in team environments and delivering projects on time.
     </p>
   </div>
 
-  <div class="resume-content">
+  <div class="resume-grid">
     <!-- Experience -->
-    <div class="experience">
+    <div class="resume-card">
       <h3>Experience</h3>
       <ul>
-        <li><strong>Web Developer</strong> - Freelance (2022 - Present)
+        <li>
+          <strong>Web Developer</strong> – Freelance (2022 - Present)
           <p>Developed responsive websites and web applications for clients, implemented modern UI/UX designs, and optimized performance.</p>
         </li>
-        <li><strong>Frontend Intern</strong> - School Project (2021 - 2022)
+        <li>
+          <strong>Frontend Intern</strong> – School Project (2021 - 2022)
           <p>Recreated school website using React and Tailwind CSS; collaborated with backend developers for seamless integration.</p>
         </li>
-        <li><strong>Intern</strong> - XYZ Tech Solutions (2020 - 2021)
+        <li>
+          <strong>Intern</strong> – Bluefox.Pvt.Ltd
           <p>Assisted in developing internal tools, automated workflows, and improved website accessibility.</p>
         </li>
       </ul>
     </div>
 
     <!-- Education -->
-    <div class="education">
+    <div class="resume-card">
       <h3>Education</h3>
       <ul>
-        <li><strong>Bachelor in IT</strong> - Tribhuvan University (2018 - 2022)</li>
-        <li><strong>High School</strong> - Nepal (2016 - 2018)</li>
+        <li><strong>Bachelor in IT</strong> – Tribhuvan University (2018 - 2022)</li>
+        <li><strong>High School</strong> – Nepal (2016 - 2018)</li>
       </ul>
     </div>
 
     <!-- Projects -->
-    <div class="projects">
+    <div class="resume-card">
       <h3>Projects</h3>
       <ul>
-        <li><strong>School Management System</strong> - React & Node.js
-          <p>Developed a full-stack application for managing student records, attendance, and grading system.</p>
+        <li>
+          <strong>School Management System</strong> – React & Node.js
+          <p>Full-stack app for managing student records, attendance, and grading.</p>
         </li>
-        <li><strong>Portfolio Website</strong> - HTML, CSS, JavaScript
-          <p>Created a responsive personal portfolio website showcasing projects, skills, and resume.</p>
+        <li>
+          <strong>Portfolio Website</strong> – HTML, CSS, JavaScript
+          <p>Responsive personal portfolio website showcasing projects, skills, and resume.</p>
         </li>
       </ul>
     </div>
 
     <!-- Certifications -->
-    <div class="certifications">
+    <div class="resume-card">
       <h3>Certifications</h3>
       <ul>
-        <li>Frontend Development Certification - freeCodeCamp</li>
-        <li>React & JavaScript Certification - Codecademy</li>
+        <li>Frontend Development Certification – freeCodeCamp</li>
+        <li>React & JavaScript Certification – Codecademy</li>
       </ul>
     </div>
 
     <!-- Achievements -->
-    <div class="achievements">
+    <div class="resume-card">
       <h3>Achievements</h3>
       <ul>
         <li>Completed 10+ freelance projects with positive client feedback.</li>
-        <li>Participated in National Level Coding Competition 2021.</li>
       </ul>
     </div>
   </div>
 </section>
 
-  </section>
 
   <!-- Skills Section -->
   <section id="skills" class="skills">
@@ -138,16 +139,38 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <h2 class="section-title animate-slideUp">Get in Touch</h2>
-    <p>Want to work together? Let’s build something amazing.</p>
-    <a href="mailto:hensanglama@example.com" class="btn">Contact Me</a>
-  </section>
-
   <!-- Footer -->
-  <footer class="footer">
-    <p>© 2025 Hensang Lama. All Rights Reserved.</p>
+  <footer id="footer" class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Hensang Lama</h3>
+        <p>Passionate Web Developer building responsive and user-friendly applications.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-socials">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://github.com/HensangL" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/hensang-lama-6460a8354" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="https://x.com/HensangL" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <li><a href="https://www.instagram.com/hensanglama" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Hensang Lama. All Rights Reserved.</p>
+    </div>
   </footer>
 
 </body>
