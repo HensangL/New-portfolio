@@ -3,138 +3,173 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BYTE | Portfolio</title>
+  <title>Hensang Lama | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for social icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
   <!-- Navbar -->
   <header class="navbar">
-    <div class="logo">BYTE</div>
+    <div class="logo">Hensang Lama</div>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#footer">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Hero Section -->
   <section id="about" class="hero">
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1>Web designer &<br>webflow developer</h1>
+    <div class="about-me">
+      <div class="about-text">
+        <h2>I Create Digital Future.</h2>
         <p>
-          Diving into the world of design, I've had the privilege of bringing a creative edge to every project I touch. My design journey has led me to collaborate with startups and renowned brands alike, where I've crafted visuals that tell compelling stories.
+          I’m a passionate web developer who loves building modern, responsive, and user-friendly applications. With a strong foundation in frontend tools like React and Tailwind, as well as backend experience in Node.js and .NET, I strive to create seamless digital experiences. My focus is on writing clean, efficient code and turning ideas into products that solve real problems.
         </p>
-        <a href="#contact" class="btn">Contact Me</a>
+        <a href="#footer" class="btn">Contact Me</a>
       </div>
-      <div class="hero-image">
-        <!-- Placeholder for image -->
-        <div class="image-placeholder"></div>
+
+      <div class="about-image">
+        <img src="passport.JPG" alt="Hensang Lama">
       </div>
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section id="services" class="services">
-    <h2 class="section-title">Services</h2>
-    <div class="services-grid">
-      <div class="service-card">
-        <div class="service-number">01</div>
-        <h3>Branding</h3>
-        <p>I capture your brand's essence through a meticulous blend of imagery, messaging, and strategy. Crafting identities that resonate and evolve.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-number">02</div>
-        <h3>Design</h3>
-        <p>Designing experiences that captivate users from the first click. Intuitive interfaces that lead to seamless interactions.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-number">03</div>
-        <h3>Development</h3>
-        <p>Transforming ideas into dynamic digital solutions. From responsive websites to interactive applications, driving innovation.</p>
-      </div>
-    </div>
-  </section>
+  <!-- Resume Section -->
+  <section id="resume" class="resume">
+  <h2 class="section-title">My Resume</h2>
 
-  <!-- Work Section -->
-  <section id="work" class="work">
-    <h2 class="section-title">Work</h2>
-    <div class="work-grid">
-      <div class="work-card">
-        <div class="work-image">
-          <div class="image-placeholder"></div>
-        </div>
-        <div class="work-content">
-          <h3>Project Title</h3>
-          <p>Branding, Design, Development</p>
-        </div>
+  <!-- Professional Summary -->
+  <div class="summary card">
+    <h3>Professional Summary</h3>
+    <p>
+      Passionate Web Developer with 3+ years of experience in building responsive and interactive web applications. Skilled in front-end technologies like HTML, CSS, JavaScript, and React, with a strong eye for UI/UX design. Adept at collaborating in team environments and delivering projects on time.
+    </p>
+  </div>
+
+  <div class="resume-grid">
+    <!-- Experience -->
+    <div class="resume-card">
+      <h3>Experience</h3>
+      <ul>
+        <li>
+          <strong>Web Developer</strong> – Freelance (2022 - Present)
+          <p>Developed responsive websites and web applications for clients, implemented modern UI/UX designs, and optimized performance.</p>
+        </li>
+        <li>
+          <strong>Frontend Intern</strong> – School Project (2021 - 2022)
+          <p>Recreated school website using React and Tailwind CSS; collaborated with backend developers for seamless integration.</p>
+        </li>
+        <li>
+          <strong>Intern</strong> – Bluefox.Pvt.Ltd
+          <p>Assisted in developing internal tools, automated workflows, and improved website accessibility.</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Education -->
+    <div class="resume-card">
+      <h3>Education</h3>
+      <ul>
+        <li><strong>Bachelor in IT</strong> – Tribhuvan University (2018 - 2022)</li>
+        <li><strong>High School</strong> – Nepal (2016 - 2018)</li>
+      </ul>
+    </div>
+
+    <!-- Projects -->
+    <div class="resume-card">
+      <h3>Projects</h3>
+      <ul>
+        <li>
+          <strong>School Management System</strong> – React & Node.js
+          <p>Full-stack app for managing student records, attendance, and grading.</p>
+        </li>
+        <li>
+          <strong>Portfolio Website</strong> – HTML, CSS, JavaScript
+          <p>Responsive personal portfolio website showcasing projects, skills, and resume.</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Certifications -->
+    <div class="resume-card">
+      <h3>Certifications</h3>
+      <ul>
+        <li>Frontend Development Certification – freeCodeCamp</li>
+        <li>React & JavaScript Certification – Codecademy</li>
+      </ul>
+    </div>
+
+    <!-- Achievements -->
+    <div class="resume-card">
+      <h3>Achievements</h3>
+      <ul>
+        <li>Completed 10+ freelance projects with positive client feedback.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2 class="section-title animate-slideUp">Skills</h2>
+    <div class="skill-bars">
+      <div class="skill">
+        <p>HTML & CSS</p>
+        <div class="bar"><span style="width:95%"></span></div>
       </div>
-      <div class="work-card">
-        <div class="work-image">
-          <div class="image-placeholder"></div>
-        </div>
-        <div class="work-content">
-          <h3>Project Title</h3>
-          <p>Branding, Design</p>
-        </div>
+      <div class="skill">
+        <p>JavaScript</p>
+        <div class="bar"><span style="width:85%"></span></div>
       </div>
-      <div class="work-card">
-        <div class="work-image">
-          <div class="image-placeholder"></div>
-        </div>
-        <div class="work-content">
-          <h3>Project Title</h3>
-          <p>Design, Development</p>
-        </div>
+      <div class="skill">
+        <p>React</p>
+        <div class="bar"><span style="width:80%"></span></div>
       </div>
-      <div class="work-card">
-        <div class="work-image">
-          <div class="image-placeholder"></div>
-        </div>
-        <div class="work-content">
-          <h3>Project Title</h3>
-          <p>Branding, Development</p>
-        </div>
+      <div class="skill">
+        <p>UI/UX Design</p>
+        <div class="bar"><span style="width:70%"></span></div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer id="contact" class="footer">
+  <footer id="footer" class="footer">
     <div class="footer-container">
       <div class="footer-about">
-        <h3>BYTE</h3>
-        <p>Web designer & webflow developer crafting visuals that tell compelling stories.</p>
+        <h3>Hensang Lama</h3>
+        <p>Passionate Web Developer building responsive and user-friendly applications.</p>
       </div>
 
       <div class="footer-links">
         <h4>Quick Links</h4>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#footer">Contact</a></li>
         </ul>
       </div>
 
       <div class="footer-socials">
         <h4>Connect</h4>
         <ul>
-          <li><a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-          <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-          <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
-          <li><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href="https://github.com/HensangL" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/hensang-lama-6460a8354" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="https://x.com/HensangL" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <li><a href="https://www.instagram.com/hensanglama" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
         </ul>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <p>© 2025 BYTE. All Rights Reserved.</p>
+      <p>© 2025 Hensang Lama. All Rights Reserved.</p>
     </div>
   </footer>
 
